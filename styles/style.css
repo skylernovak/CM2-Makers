@@ -1,0 +1,64 @@
+.myBody {
+  background-color: beige;
+  /*font-family: 'Quicksand', sans-serif;*/
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+
+  /* Location of the image */
+  background-image: url(../images/mug10.jpg);
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn’t tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn’t move when
+the content’s height is greater than the image’s height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+on the container’s size */
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 2em;
+  margin: 2em;
+}
+
+.myMarquee {
+  display: inline;
+  margin-left: 2em;
+  margin-top: 8em;
+  padding: 2em;
+  background: rgba(253, 213, 177, 0.45);
+}
+
+h1 {
+  margin: 2em auto 1em;
+  text-align: center;
+}
+
+.nav {
+  position: relative;
+  margin: 2em auto 2em;
+  display: inline;
+}
+
+.nav-item {
+  display: inline;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.artists h3 {
+  font-weight: 400;
+}
