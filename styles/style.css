@@ -59,6 +59,22 @@ p {
   font-weight: 400;
 }
 
+.artists {
+  margin: 2em;
+}
+
 .artists h3 {
   font-weight: 400;
+}
+
+footer {
+  text-align: center;
+}
+
+footer > a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
 }

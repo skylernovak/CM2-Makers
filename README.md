@@ -3,9 +3,7 @@
 ## To Do
 
 - Seperate marquee from col
-- add artist info
-- add IG link
-- add footer w/ copyright info
+- create background carousel (https://stackoverflow.com/questions/19469705/bootstrap-carousel-as-website-background)
 - create Gallery page
 - create about page
 - create event page
